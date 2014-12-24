@@ -12,8 +12,11 @@
 		6C92DB451A4B383C003FC1AE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C92DB441A4B383C003FC1AE /* ViewController.m */; };
 		6C92DB481A4B383C003FC1AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C92DB461A4B383C003FC1AE /* Main.storyboard */; };
 		6C92DB4A1A4B383C003FC1AE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C92DB491A4B383C003FC1AE /* Images.xcassets */; };
-		6C92DB4D1A4B383C003FC1AE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C92DB4B1A4B383C003FC1AE /* LaunchScreen.xib */; };
 		6C92DB591A4B383D003FC1AE /* MyWeatherApplicationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C92DB581A4B383D003FC1AE /* MyWeatherApplicationTests.m */; };
+		6C92DB641A4B3873003FC1AE /* WeatherTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C92DB631A4B3873003FC1AE /* WeatherTableViewCell.m */; };
+		6C92DB681A4B38C6003FC1AE /* BGIMG1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C92DB651A4B38C5003FC1AE /* BGIMG1.png */; };
+		6C92DB691A4B38C6003FC1AE /* Splash_Screen.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C92DB661A4B38C6003FC1AE /* Splash_Screen.png */; };
+		6C92DB6A1A4B38C6003FC1AE /* Splash_Screen2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C92DB671A4B38C6003FC1AE /* Splash_Screen2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +39,14 @@
 		6C92DB441A4B383C003FC1AE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6C92DB471A4B383C003FC1AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6C92DB491A4B383C003FC1AE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		6C92DB4C1A4B383C003FC1AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		6C92DB521A4B383D003FC1AE /* MyWeatherApplicationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyWeatherApplicationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C92DB571A4B383D003FC1AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6C92DB581A4B383D003FC1AE /* MyWeatherApplicationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyWeatherApplicationTests.m; sourceTree = "<group>"; };
+		6C92DB621A4B3873003FC1AE /* WeatherTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherTableViewCell.h; sourceTree = "<group>"; };
+		6C92DB631A4B3873003FC1AE /* WeatherTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherTableViewCell.m; sourceTree = "<group>"; };
+		6C92DB651A4B38C5003FC1AE /* BGIMG1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BGIMG1.png; sourceTree = "<group>"; };
+		6C92DB661A4B38C6003FC1AE /* Splash_Screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Splash_Screen.png; sourceTree = "<group>"; };
+		6C92DB671A4B38C6003FC1AE /* Splash_Screen2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Splash_Screen2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +70,9 @@
 		6C92DB301A4B383C003FC1AE = {
 			isa = PBXGroup;
 			children = (
+				6C92DB651A4B38C5003FC1AE /* BGIMG1.png */,
+				6C92DB661A4B38C6003FC1AE /* Splash_Screen.png */,
+				6C92DB671A4B38C6003FC1AE /* Splash_Screen2.png */,
 				6C92DB3B1A4B383C003FC1AE /* MyWeatherApplication */,
 				6C92DB551A4B383D003FC1AE /* MyWeatherApplicationTests */,
 				6C92DB3A1A4B383C003FC1AE /* Products */,
@@ -87,8 +97,9 @@
 				6C92DB441A4B383C003FC1AE /* ViewController.m */,
 				6C92DB461A4B383C003FC1AE /* Main.storyboard */,
 				6C92DB491A4B383C003FC1AE /* Images.xcassets */,
-				6C92DB4B1A4B383C003FC1AE /* LaunchScreen.xib */,
 				6C92DB3C1A4B383C003FC1AE /* Supporting Files */,
+				6C92DB621A4B3873003FC1AE /* WeatherTableViewCell.h */,
+				6C92DB631A4B3873003FC1AE /* WeatherTableViewCell.m */,
 			);
 			path = MyWeatherApplication;
 			sourceTree = "<group>";
@@ -199,9 +210,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C92DB681A4B38C6003FC1AE /* BGIMG1.png in Resources */,
 				6C92DB481A4B383C003FC1AE /* Main.storyboard in Resources */,
-				6C92DB4D1A4B383C003FC1AE /* LaunchScreen.xib in Resources */,
+				6C92DB691A4B38C6003FC1AE /* Splash_Screen.png in Resources */,
 				6C92DB4A1A4B383C003FC1AE /* Images.xcassets in Resources */,
+				6C92DB6A1A4B38C6003FC1AE /* Splash_Screen2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,6 +232,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C92DB641A4B3873003FC1AE /* WeatherTableViewCell.m in Sources */,
 				6C92DB451A4B383C003FC1AE /* ViewController.m in Sources */,
 				6C92DB421A4B383C003FC1AE /* AppDelegate.m in Sources */,
 				6C92DB3F1A4B383C003FC1AE /* main.m in Sources */,
@@ -250,14 +264,6 @@
 				6C92DB471A4B383C003FC1AE /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		6C92DB4B1A4B383C003FC1AE /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6C92DB4C1A4B383C003FC1AE /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -345,9 +351,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = MyWeatherApplication/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -355,9 +364,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = MyWeatherApplication/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
